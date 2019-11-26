@@ -40,8 +40,38 @@ public class Коstka {
         fillCol(0);
         fillCol(2);
     }private void five(){
-        for(int i;i<width;i++){
+        for(int i=0;i<width;i++){
+            if(i%2==0){
+                this.matrix.setOn(i,1);
+            }else{
+                for(int r=0;r<width;r++) {
+                    if(r%2==1){
+                        this.matrix.setOn(i,r);
+                    }
+                }
+            }
 
+        }
+    }private void four(){
+        five();
+        this.matrix.setOff(1,1);
+    }private void three(){
+        fillRow(1);
+    }private void two(){
+        three();
+        this.matrix.setOff(1,1);
+    }private void one(){
+        three();
+        for(int i=0;i<width;i++){
+            if(i%2==1){
+                this.matrix.setOff(1,i);
+            }
+        }
+    }private void zero(){
+        for(int x=0;x<width;x++) {
+            for (int y = 0; y < height; y++) {
+                this.matrix.setOff(y, x);
+            }
         }
     }
 
