@@ -10,13 +10,12 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/ArabTools.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ArabTools.jar!/" />
         </CLASSES>
-        <JAVADOC>
-          <root url="jar://$USER_HOME$/ArabTools-javadoc.jar!/" />
-        </JAVADOC>
+        <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/ArabTools-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ArabTools-sources (1).jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/ArabTools-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>

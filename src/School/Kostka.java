@@ -112,18 +112,15 @@ public class Kostka {
         five();
         this.matrix.setOff(center[0],center[1]);
     }private void three(){
-        zero();
-        fillCol(center[0]);
+        five();
+        this.matrix.setOff(0,4);
+        this.matrix.setOff(4,0);
     }private void two(){
         three();
         this.matrix.setOff(center[0],center[1]);
     }private void one(){
-        three();
-        for(int i=0;i<3;i++){
-            if(i%2==0){
-                this.matrix.setOff(i*2,center[0]);
-            }
-        }
+        zero();
+        this.matrix.setOn(center[0],center[1]);
     }private void zero(){
         for(int x=0;x<width;x++) {
             for (int y = 0; y < height; y++) {
