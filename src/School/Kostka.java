@@ -108,7 +108,7 @@ public class Kostka {
             }
 
         }
-    }private void four(){
+    }public void four(){
         five();
         this.matrix.setOff(center[0],center[1]);
     }private void three(){
@@ -120,7 +120,7 @@ public class Kostka {
         this.matrix.setOff(center[0],center[1]);
     }private void one(){
         zero();
-        this.matrix.setOn(center[0],center[1]);
+        this.matrix.setOn(2,2);
     }private void zero(){
         for(int x=0;x<width;x++) {
             for (int y = 0; y < height; y++) {

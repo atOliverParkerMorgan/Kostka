@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969fab38-d6e1-4fdd-ae69-f0edfcf8ee4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kostka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kostka.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/School/Kostka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/School/Kostka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/School/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ArabTools.jar!/" />
+    <property name="last_opened_file_path" value="Z:/Lib/ArabTools-sources (1).jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -98,6 +98,8 @@
       <updated>1574771257443</updated>
       <workItem from="1574771265456" duration="2016000" />
       <workItem from="1574849312120" duration="722000" />
+      <workItem from="1574944503478" duration="732000" />
+      <workItem from="1574945380468" duration="552000" />
     </task>
     <servers />
   </component>

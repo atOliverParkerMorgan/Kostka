@@ -7,15 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/ArabTools.jar!/" />
+          <root url="jar://Z:/Lib/ArabTools (1).jar!/" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="jar://Z:/Lib/ArabTools-javadoc (1).jar!/" />
+        </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/Downloads/ArabTools-sources (1).jar!/" />
-          <root url="jar://$USER_HOME$/Downloads/ArabTools-sources.jar!/" />
+          <root url="jar://Z:/Lib/ArabTools-sources (1).jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
