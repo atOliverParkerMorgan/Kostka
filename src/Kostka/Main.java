@@ -1,4 +1,4 @@
-package School;
+package Kostka;
 
 
 import cz.gyarab.util.Utils;
