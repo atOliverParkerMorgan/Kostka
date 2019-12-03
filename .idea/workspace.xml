@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969fab38-d6e1-4fdd-ae69-f0edfcf8ee4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Kaledář/Kalendar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/School/Kostka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kostka/Kostka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kostka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kaledář/Kalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kaledář/Kalendar.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +113,7 @@
       <workItem from="1574944503478" duration="732000" />
       <workItem from="1574945380468" duration="552000" />
       <workItem from="1575370915973" duration="618000" />
+      <workItem from="1575375894795" duration="2173000" />
     </task>
     <servers />
   </component>
