@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969fab38-d6e1-4fdd-ae69-f0edfcf8ee4f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kaledář/Kalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kaledář/Kalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +26,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="Z:/Lib/ArabTools-sources (1).jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ArabTools.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="School" />
-      <recent name="" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,54 +43,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kalendar">
-    <configuration name="Kalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kaledář.Kalendar" />
-      <module name="Kostka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kaledář.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kostka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kostka.Kostka" />
-      <module name="Kostka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kostka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kostka.Main" />
-      <module name="Kostka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kostka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Kalendar" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Kostka" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,14 +53,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574771257443</updated>
-      <workItem from="1574771265456" duration="2016000" />
-      <workItem from="1574849312120" duration="722000" />
-      <workItem from="1574944503478" duration="732000" />
-      <workItem from="1574945380468" duration="552000" />
-      <workItem from="1575370915973" duration="618000" />
-      <workItem from="1575375894795" duration="2173000" />
-      <workItem from="1575549405350" duration="1411000" />
+      <workItem from="1574771265456" duration="2051000" />
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <created>1574773316081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574773316081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,12 +73,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>
