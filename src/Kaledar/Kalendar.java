@@ -1,4 +1,4 @@
-package Kaledář;
+package Kaledar;
 
 public class Kalendar {
     private int[] pocetdnuvmesici = {31,28,31,30,31,30,31,31,30,31,30,31};
@@ -24,7 +24,7 @@ public class Kalendar {
         }
         if(den==0){
             if(mesic!=1) {
-                System.out.println("!!! index alert !!! 0. " + mesic + ". == " + pocetdnuvmesici[mesic - 2] + ". " + mesic + ".");
+                System.out.println("!!! index alert !!! => 0. " + mesic + ". == " + pocetdnuvmesici[mesic - 2] + ". " + (mesic-1) + ".");
             }
         }
         for(int i=0;i<mesic-1;i++){
@@ -35,7 +35,7 @@ public class Kalendar {
     private int[] denVPoradi(int poradi){
         int mesic;
         if(prestupny&&poradi>366||!prestupny&&poradi>365){
-            System.out.println("Error: input out bounds");
+            System.out.println("Error: input out of bounds");
             return new int[]{-1,-1};
         }
         for(mesic = 0;poradi-pocetdnuvmesici[mesic]>0;mesic++){
@@ -51,15 +51,14 @@ public class Kalendar {
             return celkem-poradiDne(mesicOd, denOd) + poradiDne(mesicDo, denDo);
 
         }
-        return poradiDne(mesicOd,denOd)-poradiDne(mesicDo,denDo);
+        return poradiDne(mesicDo,denDo) - poradiDne(mesicOd,denOd);
     }
     public static void main(String[] args) {
-        Kalendar k = new Kalendar(true);
-        System.out.println(k.poradiDne(1,31));
-        int[] a = k.denVPoradi(367);
-        System.out.println(a[0]);
-        System.out.println(a[1]);
-        System.out.println();
+        Kalendar k = new Kalendar(false);
+        k.setPrestupny(true);
+        System.out.println(k.poradiDne(12,31));
+        int[] a = k.denVPoradi(366);
+        System.out.println("mesic: "+a[0]+" den: "+a[1]);
         System.out.println(k.interval(12,31,1,1));
     }
 

@@ -1,8 +1,10 @@
 package Pole;
 
+import java.util.Arrays;
+
 public class ManipulacePolem {
     public static void main(String[] args) {
-        System.out.println(ManipulacePolem.GeometrickyPrumer(new double[]{1,2,3,4,5,6,7,8,9,200}));
+
     }
 
     static double Soucet(double[] pole){
@@ -25,5 +27,41 @@ public class ManipulacePolem {
 
         return Math.pow(celkem, 1.0/pole.length);
     }
+    static double KvadratickyPrumer(double[] pole){
+        double celkem = 0;
+        for (double v : pole) {
+            celkem += v * v;
+        }
+        double prumer = celkem/pole.length;
+        return Math.pow(prumer,0.5);
+    }
+    static double odchylka(double[] pole){
+        return Prumer(pole)-KvadratickyPrumer(pole)<0?-(Prumer(pole)-KvadratickyPrumer(pole)):(Prumer(pole)-KvadratickyPrumer(pole));
+    }
+    static double vazenyPrumer(double[] pole, double[] vahy){
+        double celkem = 0;
+        for (int i = 0; i <pole.length ; i++) {
+            celkem+=pole[i]*vahy[i];
+        }
+        return celkem/pole.length;
+    }
+
+    static double[] klon(double[] pole){
+        double[] poleN = new double[pole.length];
+        for (int i = 0; i <pole.length ; i++) {
+            poleN[i] = pole[i];
+        }
+        return poleN;
+    }
+    static double[] spoj (double[] pole1,double[] pole2){
+        double[] pole3 = new double[pole1.length+pole2.length];
+
+        for (int i = 0; i < pole3.length; i++) {
+            pole3[i] = pole1.length>i?pole1[i]:pole2[i-pole1.length];
+        }
+        return pole3;
+    }
+
+
 
 }
