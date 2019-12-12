@@ -1,11 +1,6 @@
 package Pole;
 
-import java.util.Arrays;
-
 public class ManipulacePolem {
-    public static void main(String[] args) {
-
-    }
 
     static double Soucet(double[] pole){
         double celkem = 0;
@@ -57,9 +52,23 @@ public class ManipulacePolem {
         double[] pole3 = new double[pole1.length+pole2.length];
 
         for (int i = 0; i < pole3.length; i++) {
-            pole3[i] = pole1.length>i?pole1[i]:pole2[i-pole1.length];
+            pole3[i] = pole1.length>i? pole1[i]:pole2[i-pole1.length];
         }
         return pole3;
+    }
+    static boolean logickySoucin(boolean[] pole){
+        boolean konjunkce = true;
+        for (int i = 0; i < pole.length-1; i++) {
+            konjunkce = pole[i] && pole[i+1] && konjunkce;
+        }
+        return konjunkce;
+    }
+    static boolean logickySoucet(boolean[] pole){
+        boolean disjunkce = false;
+        for (int i = 0; i < pole.length-1; i++) {
+            disjunkce = pole[i] || pole[i+1] || disjunkce;
+        }
+        return disjunkce;
     }
 
 
